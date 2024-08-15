@@ -84,4 +84,4 @@ for index, row in nurse_df.iterrows():
     # Use pd.concat to add the new row to the DataFrame
     schedule_df = pd.concat([schedule_df, pd.DataFrame([new_row])], ignore_index=True)
 
-print(schedule_df)
+st.write(schedule_df)
